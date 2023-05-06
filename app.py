@@ -1,3 +1,4 @@
+"""Packages"""
 from flask import Flask
 
 app = Flask(__name__)
@@ -5,6 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
+    """Module"""
     return '<h1>Hello WSB! Greetings from Flask!</h1>'
 
 
