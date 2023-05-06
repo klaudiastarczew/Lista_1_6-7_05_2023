@@ -4,7 +4,7 @@ jobs:
   Test-github-actions:
     runs-on: ubuntu-latest
     steps:
-      - run: python ../../app.py
+      - run: python app.py
       - run: echo "Success"
       - name: Check out repository code
         uses: actions/checkout@v3
